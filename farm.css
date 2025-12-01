@@ -713,6 +713,7 @@ section .c-location{
   .contact-address{
     width: 80%;
     margin: auto;
+  }
 }
 footer{
     background: var(--brand-green);
@@ -723,4 +724,5 @@ footer{
     line-height: 25px;
 
 }
+
 
