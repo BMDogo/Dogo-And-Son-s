@@ -709,12 +709,18 @@ section .c-location{
     width: 90%;
     }
    .contact-form{
-     width: 95%;
+     width: 80%;
      margin: auto;
    }
   .contact-address{
     width: 90%;
     margin: auto;
+  }
+  .contact-address section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-bottom: 10px;
   }
 }
 footer{
@@ -726,6 +732,7 @@ footer{
     line-height: 25px;
 
 }
+
 
 
 
