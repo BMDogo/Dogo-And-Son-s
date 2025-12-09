@@ -145,6 +145,9 @@ li a:hover{
     .navbar ul{
         display: none;
     }
+  .sidebar{
+      width: 160px;
+  }
 }
 @media(min-width: 768px) and 
 (max-width: 1024px){
@@ -172,7 +175,7 @@ li a:hover{
     background-repeat: no-repeat;
     width: 100%;
     height: 300px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .home-content{
     display: grid;
@@ -601,6 +604,7 @@ marquee, .home-sub marquee {
     grid-template-columns: 1fr 2fr;
     margin-top: 20px;
     gap: 8px;
+    padding: 15px;
 }
 .contact-page header{
     text-align: center;
@@ -746,11 +750,11 @@ section .c-location{
     width: 90%;
     }
    .contact-form{
-     width: 100%;
+     width: 95%;
      margin: auto;
    }
   .contact-address{
-    width: 100%;
+    width: 95%;
     margin: auto;
   }
   .contact-address section{
@@ -769,6 +773,7 @@ footer{
     line-height: 25px;
 
 }
+
 
 
 
